@@ -1,0 +1,39 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "darkentity"
+version = "1.0.0"
+displayName = "Dark Entity"
+description = '''
+Чёрный глитч-босс на GeckoLib: световые столбы, бирюзовая сфера, красное небо с лазерами, катаклизм и глитч-шейдер на Veil.
+'''
+
+[[dependencies.darkentity]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.darkentity]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.darkentity]]
+modId = "geckolib"
+type = "required"
+versionRange = "[4.7,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.darkentity]]
+modId = "veil"
+type = "required"
+versionRange = "[4.4,)"
+ordering = "NONE"
+side = "CLIENT"
